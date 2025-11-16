@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Shantanu Gupta:mailto:shantanu.gupta@aarfid.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=sunilroat7
+ takatak@gmail.com:mailto:sunilroat7takatak@gmail.com
+DESCRIPTION;LANGUAGE=en-US:Sunil Roat\nhttps://github.com/sunilroat-code\nh
+ ttps://www.linkedin.com/in/sunil-roat-a311b4251/\nhttps://drive.google.com
+ /open?id=1fdhJJJzNM881rYa_L5mcNPo-gMx-0Q4-\n\n\n__________________________
+ ______________________________________________________\nMicrosoft Teams Ne
+ ed help?<https://aka.ms/JoinTeamsMeeting?omkt=en-US>\nJoin the meeting now
+ <https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDFmYjBjNzEtYzk3Ni
+ 00MmU1LThjOTktYzAwMGJmMzA5YjM3%40thread.v2/0?context=%7b%22Tid%22%3a%22146
+ d7e5e-e929-4e70-ab1a-08ff5db43d97%22%2c%22Oid%22%3a%22726b642c-066c-454d-b
+ 859-6db651f1dcfb%22%7d>\nMeeting ID: 223 934 952 393 97\nPasscode: Kx2y9dv
+ 3\n________________________________\nFor organizers: Meeting options<https
+ ://teams.microsoft.com/meetingOptions/?organizerId=726b642c-066c-454d-b859
+ -6db651f1dcfb&tenantId=146d7e5e-e929-4e70-ab1a-08ff5db43d97&threadId=19_me
+ eting_ZDFmYjBjNzEtYzk3Ni00MmU1LThjOTktYzAwMGJmMzA5YjM3@thread.v2&messageId
+ =0&language=en-US>\n______________________________________________________
+ __________________________\n
+UID:040000008200E00074C5B7101A82E008000000006286BCBE1457DC01000000000000000
+ 010000000A30EA6B2D7CDAA4E8CC30A53CE08945E
+SUMMARY;LANGUAGE=en-US:Technical interview with Sunil Roat
+DTSTART;TZID=India Standard Time:20251117T130000
+DTEND;TZID=India Standard Time:20251117T140000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20251116T162505Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:2124120390
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZDFmYjBjNzEtYzk3Ni00MmU1LThjOTktYzAwMGJmMzA5YjM3%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22146d7e5e-e929-4e70-ab1a-08ff5db43d97%22%2c%22O
+ id%22%3a%22726b642c-066c-454d-b859-6db651f1dcfb%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/146d7e5e-e929-4e70-ab1a-08ff5db43d97/726b642c-066c-454d-b859-6
+ db651f1dcfb/19_meeting_ZDFmYjBjNzEtYzk3Ni00MmU1LThjOTktYzAwMGJmMzA5YjM3@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZDFmYjBjNzEtYzk3Ni00MmU
+ 1LThjOTktYzAwMGJmMzA5YjM3@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
